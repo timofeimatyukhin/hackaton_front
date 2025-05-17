@@ -20,7 +20,7 @@ async function setupWebcam() {
                 height: { ideal: 720 },
                 facingMode: 'user' 
             }, 
-            audio: false 
+            audio: false
         });
         
         video.srcObject = stream;
